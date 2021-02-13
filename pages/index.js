@@ -1,14 +1,11 @@
-import Head from 'next/head';
+import Layout from '../components/Layout';
 
-export default function Home() {
+function Home() {
   return (
-    <>
-      <Head>
-        <title>Hello world</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <Layout>
       <p>Hello world</p>
-    </>
+    </Layout>
   );
 }
+
+export default Home;
